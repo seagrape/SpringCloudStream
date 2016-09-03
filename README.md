@@ -22,7 +22,7 @@ SpringCloudStream DEMO
 > 如果先启动SourceApplication，则只有一个消费者能拿到所有所数据。
 > 原因参见博客内容
 
-## 更新单机配置
+## 调用send生产者服务，观察消费者控制台输出
 
 ```
 1、curl http://localhost:8800/send/9301
